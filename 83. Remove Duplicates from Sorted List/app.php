@@ -11,21 +11,19 @@
  * }
  */
 class Solution {
+
     /**
-     * A function to print and return "Hello World".
+     * @param ListNode $head
+     * @return ListNode
      */
     function deleteDuplicates($head) {
-       
-        return "Hello World"; // Return a value
+        return "Hello";
     }
 }
 
 $solution = new Solution();
-$head = null;
-$result = $solution->deleteDuplicates($head);
-echo $result; // Outputs "Hello WorldHello World"
-
-
+$result = $solution->deleteDuplicates([1,2,3,4]);
+echo $result;
 
 
 ?>
